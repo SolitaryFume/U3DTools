@@ -1,4 +1,5 @@
 ﻿// #define UNITY
+// #define SERVER
 using System;
 using System.Security.Cryptography;
 
@@ -8,14 +9,16 @@ namespace U3DTools
     {
         static void Main(string[] args)
         {
-            var str = "加密数据";
-            var md5value = MD5Help.GetMD5(str);
-            System.Console.WriteLine(md5value);
+            var client = ClientSocket.Create("127.0.0.1",888);
+            Console.ReadLine();
         }
     }
 
+#if SERVER
     public class A
     {
         // public int value{get;set;}
     }
+
+#endif
 }

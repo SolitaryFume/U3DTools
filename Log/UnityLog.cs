@@ -1,3 +1,4 @@
+#if UNITY
 namespace U3DTools
 {
     public class UnityLog : ILog
@@ -34,3 +35,4 @@ namespace U3DTools
 
     }
 }
+#endif

@@ -1,5 +1,4 @@
 #if UNITY
-
 using System;
 using UnityEngine;
 namespace U3DTools
