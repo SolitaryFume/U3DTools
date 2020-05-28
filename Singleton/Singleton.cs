@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace U3DTools
 {
-    public abstract class Singleton<T> where T : Singleton<T>, IDisposable
+    public abstract class Singleton<T> : IDisposable where T : Singleton<T>
     {
         private static object m_lock = new object();
         public static T m_instance;
@@ -28,7 +28,7 @@ namespace U3DTools
             }
         }
 
-        public virtual void Disposable()
+        public virtual void Dispose()
         {
             m_instance = null;
         }

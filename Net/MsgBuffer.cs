@@ -45,7 +45,7 @@ namespace U3DTools
             if(m_data.Count<4)
                 return;
             
-            m_msgLength = BitConverter.ToInt32(m_data.Take(4).ToArray());
+            m_msgLength = BitConverter.ToInt32(m_data.Take(4).ToArray(),0);
         }
 
         private void ParsingBody()

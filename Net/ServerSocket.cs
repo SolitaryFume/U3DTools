@@ -5,7 +5,7 @@ using System;
 
 namespace U3DTools
 {
-    public class ServerSocket : Singleton<ServerSocket>,IDisposable
+    public class ServerSocket : Singleton<ServerSocket>
     {   
         public static string ip;
         public static int port = 88;
@@ -13,10 +13,10 @@ namespace U3DTools
         private Socket m_socket;
 
         private ServerSocket(){}
-        public void Dispose()
-        {
-            m_socket.Close();
-        }
+        // public void Dispose()
+        // {
+        //     m_socket.Close();
+        // }
 
         public async void Start()
         {
@@ -39,6 +39,7 @@ namespace U3DTools
                 var client = PoolSingleton<ClientSocket>.Instance.Fetch();
                 client.SetSocket(socket);
                 ClientSocketManager.Instance.Register(client);
+                client.BeginReceive();
             }
         }
     }

@@ -6,7 +6,7 @@ using System;
 namespace U3DTools
 {
     public class ClientSocketManager
-        :Singleton<ClientSocketManager>,IDisposable
+        :Singleton<ClientSocketManager>
     {
         private ClientSocketManager(){
             clientSockets = new HashSet<ClientSocket>();
@@ -27,10 +27,10 @@ namespace U3DTools
                 return;
             clientSockets.Remove(clientSocket);
         }
-        public void Dispose()
-        {
-            clientSockets.Clear();
-        }
+        // public void Dispose()
+        // {
+        //     clientSockets.Clear();
+        // }
     }
 }
 

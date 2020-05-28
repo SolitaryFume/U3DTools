@@ -26,5 +26,22 @@ namespace U3DTools
         {
             m_log?.Log(format,args);
         }
+
+        public static void LogWarning(object msg){
+            m_log?.LogWarning(msg);
+        }
+
+        public static void LogWarning(string format,params object[] args)
+        {
+            m_log?.LogWarning(format,args);
+        }
+        public static void LogError(object msg){
+            m_log?.LogWarning(msg);
+        }
+
+        public static void LogError(string format,params object[] args)
+        {
+            m_log?.LogWarning(format,args);
+        }
     }
 }

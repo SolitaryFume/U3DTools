@@ -1,13 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-    <DefineConstants>$(DefineConstants);SERVER</DefineConstants>
+    <TargetFramework>netstandard2.0</TargetFramework>
+     <DefineConstants>$(DefineConstants);SERVER</DefineConstants>
   </PropertyGroup>
-
-  <ItemGroup>
+  <!-- <ItemGroup>
     <Reference Include = "C:\Program Files\Unity\Hub\Editor\2018.4.141\Editor\Data\Managed\UnityEngine.dll"/>
-  </ItemGroup>
-
+  </ItemGroup> -->
 </Project>
