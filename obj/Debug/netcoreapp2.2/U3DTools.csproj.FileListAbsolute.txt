@@ -1,0 +1,14 @@
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netcoreapp2.2\U3DTools.deps.json
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netcoreapp2.2\U3DTools.runtimeconfig.json
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netcoreapp2.2\U3DTools.runtimeconfig.dev.json
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netcoreapp2.2\U3DTools.dll
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netcoreapp2.2\U3DTools.pdb
+C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netcoreapp2.2\U3DTools.csprojAssemblyReference.cache
+C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netcoreapp2.2\U3DTools.csproj.CoreCompileInputs.cache
+C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netcoreapp2.2\U3DTools.AssemblyInfoInputs.cache
+C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netcoreapp2.2\U3DTools.AssemblyInfo.cs
+C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netcoreapp2.2\U3DTools.dll
+C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netcoreapp2.2\U3DTools.pdb
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netcoreapp2.2\UnityEngine.dll
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netcoreapp2.2\UnityEngine.xml
+C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netcoreapp2.2\U3DTools.csproj.CopyComplete
