@@ -12,7 +12,7 @@ namespace U3DTools
         {
             get
             {
-                if (m_instance)
+                if (m_instance==null)
                 {
                     var obj = new GameObject(typeof(T).Name,typeof(T));
                 }

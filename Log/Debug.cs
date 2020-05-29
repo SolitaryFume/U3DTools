@@ -22,26 +22,26 @@ namespace U3DTools
             m_log?.Log(msg);
         }
 
-        public static void Log(string format,params object[] args)
+        public static void LogFormat(string format,params object[] args)
         {
-            m_log?.Log(format,args);
+            m_log?.LogFormat(format,args);
         }
 
         public static void LogWarning(object msg){
             m_log?.LogWarning(msg);
         }
 
-        public static void LogWarning(string format,params object[] args)
+        public static void LogWarningFormat(string format,params object[] args)
         {
-            m_log?.LogWarning(format,args);
+            m_log?.LogWarningFormat(format,args);
         }
         public static void LogError(object msg){
             m_log?.LogWarning(msg);
         }
 
-        public static void LogError(string format,params object[] args)
+        public static void LogErrorFormat(string format,params object[] args)
         {
-            m_log?.LogWarning(format,args);
+            m_log?.LogWarningFormat(format,args);
         }
     }
 }

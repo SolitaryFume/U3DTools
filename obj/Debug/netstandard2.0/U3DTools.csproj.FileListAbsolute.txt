@@ -7,3 +7,6 @@ C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netstandard2.0\U3DTools.dll
 C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netstandard2.0\U3DTools.pdb
 C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netstandard2.0\U3DTools.dll
 C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netstandard2.0\U3DTools.pdb
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netstandard2.0\UnityEngine.dll
+C:\Users\ZJC\Desktop\U3DTools\bin\Debug\netstandard2.0\UnityEngine.xml
+C:\Users\ZJC\Desktop\U3DTools\obj\Debug\netstandard2.0\U3DTools.csproj.CopyComplete

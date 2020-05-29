@@ -8,7 +8,7 @@ namespace U3DTools
             UnityEngine.Debug.Log(msg);
         }
 
-        public void Log(string format, params object[] args)
+        public void LogFormat(string format, params object[] args)
         {
             UnityEngine.Debug.Log(string.Format(format,args));
         }
@@ -18,7 +18,7 @@ namespace U3DTools
             UnityEngine.Debug.LogWarning(msg);
         }
 
-        public void LogWarning(string format, params object[] args)
+        public void LogWarningFormat(string format, params object[] args)
         {
             UnityEngine.Debug.LogWarning(string.Format(format,args));
         }
@@ -28,7 +28,7 @@ namespace U3DTools
             UnityEngine.Debug.LogError(msg);
         }
 
-        public void LogError(string format, params object[] args)
+        public void LogErrorFormat(string format, params object[] args)
         {
             UnityEngine.Debug.LogError(string.Format(format,args));
         }

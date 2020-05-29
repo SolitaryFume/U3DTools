@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-     <DefineConstants>$(DefineConstants);SERVER</DefineConstants>
+     <DefineConstants>$(DefineConstants);UNITY</DefineConstants>
   </PropertyGroup>
-  <!-- <ItemGroup>
-    <Reference Include = "C:\Program Files\Unity\Hub\Editor\2018.4.141\Editor\Data\Managed\UnityEngine.dll"/>
-  </ItemGroup> -->
+  <ItemGroup>
+    <Reference Include = "C:\Program Files\Unity\Hub\Editor\2019.3.11f1\Editor\Data\Managed\UnityEngine.dll"/>
+  </ItemGroup>
 </Project>
